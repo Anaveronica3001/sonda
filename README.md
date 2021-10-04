@@ -7,6 +7,6 @@ Foi criado um sistema para Gestão de Aeronaves onde encontramos - Marca, aerona
 
 As aeronaves ficam disponiveis para consulta e cadastro.
 
-Foi utilizado Java/HTML/CSS
+Foi utilizado: Java/HTML/CSS
 
 Desenvolvedora: Ana Veronica 

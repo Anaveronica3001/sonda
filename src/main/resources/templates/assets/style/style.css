@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    padding: 20px;
+}
+
+.container-form h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cadastro {
+    max-width: 400px;
+    width: 100%;
+}
+
+.cadastro form { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cadastro form .input {
+    height: 35px;
+    padding-left: 10px;
+}
+
+.cadastro form .select-marca {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.cadastro form .a-name {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cadastro form .ano {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cadastro form .a-ano {
+    width: 65%;
+}
+
+.cadastro form .select-vendido {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.cadastro form button {
+    width: 100px;
+    height: 35px;
+    margin-left: auto;
+}
+
+.cadastro .registros {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cadastro .registros .decadas p,
+.cadastro .registros .data-registro p {
+    font-weight: 700;
+}
+
+.container-table {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-table input {
+    width: 40%;
+}
+
+.table th, td {
+    border:1px black solid;
+}
+
+
+.full_table_list{
+    width: 100%;
+    margin: 20px 0 10px;
+    border-collapse: collapse;
+}
+         
+ 
+.full_table_list tr, td {
+    border:1px black solid;
+    text-align: center;
+}
+         
+        
+.full_table_list tr:nth-child(even) {
+    background: #FFF;
+}
+         
+        
+.full_table_list tr:nth-child(odd) {
+    background: rgb(223, 223, 223);
+}   

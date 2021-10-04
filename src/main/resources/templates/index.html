@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Gestão de Aeronaves</title>
+</head>
+<body>
+    <div class="container-form">
+        <h1>Gestão de Aeronaves</h1>
+        <div class="cadastro">
+            <form action="#">
+                <select name="select-marca " class="select-marca input">
+                    <option value="valor1">Marca 1</option>
+                    <option value="valor2" selected>Marca</option>
+                    <option value="valor3">Marca 3</option>
+                </select>
+                <input type="text" id="a-namo" class="a-name input" placeholder="Aeronave">
+                <div class="ano">
+                    <input type="text" id="a-ano" class="a-ano input" placeholder="Ano">
+                    <select name="select-vendido" class="select-vendido input">
+                        <option value="valor2" selected>Vendido</option>
+                        <option value="valor3">Sim</option>
+                        <option value="valor3">Não</option>
+                    </select>
+                </div>
+                <button>Gravar</button>
+            </form>
+            <div class="registros">
+                <div class="decadas">
+                    <p>Década 90: 5</p> 
+                    <p>Década 00: 4</p> 
+                </div>
+                <div class="data-registro">
+                    <p>Essa semana: 3</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-table">
+        <input type="text" class="input" placeholder="Pesquisa por um modelo ou ID">
+        <table class="full_table_list">
+            <tr>
+                <th>ID</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Ano</th>
+                <th>Vendido</th>
+                <th>Excluir</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Embraer</td>
+                <td>E2-190</td>
+                <td>2014</td>
+                <td><INPUT TYPE="RADIO" NAME="OPCAO" VALUE="vendido"></td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Boeing</td>
+                <td>E2-190</td>
+                <td>2014</td>
+                <td><INPUT TYPE="RADIO" NAME="OPCAO" VALUE="vendido"></td>
+                <td>X</td>
+              </tr>
+        </table>
+        <h4>Marcas</h4>
+        <p>Embraer: 1</p>
+        <p>Boeing: 1</p>
+    </div>
+    
+</body>
+</html>
